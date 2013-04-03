@@ -8,25 +8,25 @@ By [Florian Eckerstorfer](http://braincrafted.com) ([Twitter](http://twitter.com
 Snippets
 --------
 
-- `usem`*`TAB`* → `use \Mockery as m;`
-- `mm`*`TAB`* → `m::mock(✎);`
-- `mc`*`TAB`* → `m::close();`
-- `msr`*`TAB`* → `shouldReceive(✎)`
-- `mw`*`TAB`* → `with(✎)`
-- `mw2`*`TAB`* → `with(✎, ✎)`
-- `mw3`*`TAB`* → `with(✎, ✎, ✎)`
-- `mw?`*`TAB`* → `withAnyArgs()`
-- `mw0`*`TAB`* → `withNoArgs()`
-- `mo`*`TAB`* → `once()`
-- `mtw`*`TAB`* → `twice()`
-- `mz+`*`TAB`* → `zeroOrMoreTimes()`
-- `mt`*`TAB`* → `times(✎)`
-- `mal`*`TAB`* → `atLeast()`
-- `mal1`*`TAB`* → `atLeast()->once()`
-- `mal2`*`TAB`* → `atLeast()->twice()`
-- `malt`*`TAB`* → `atLeast()->times(✎)`
-- `mam`*`TAB`* → `atMost()`
-- `mam1`*`TAB`* → `atMost()->once()`
-- `mam2`*`TAB`* → `atMost()->twice()`
-- `mamt`*`TAB`* → `atMost()->times(✎)`
-- `mar`*`TAB`* → `andReturn(✎)`
+- `usem⇥` → `use \Mockery as m;`
+- `mm⇥` → `m::mock(✎);`
+- `mc⇥` → `m::close();`
+- `msr⇥` → `shouldReceive(✎)`
+- `mw⇥` → `with(✎)`
+- `mw2⇥` → `with(✎, ✎)`
+- `mw3⇥` → `with(✎, ✎, ✎)`
+- `mw?⇥` → `withAnyArgs()`
+- `mw0⇥` → `withNoArgs()`
+- `mo⇥` → `once()`
+- `mtw⇥` → `twice()`
+- `mz+⇥` → `zeroOrMoreTimes()`
+- `mt⇥` → `times(✎)`
+- `mal⇥` → `atLeast()`
+- `mal1⇥` → `atLeast()->once()`
+- `mal2⇥` → `atLeast()->twice()`
+- `malt⇥` → `atLeast()->times(✎)`
+- `mam⇥` → `atMost()`
+- `mam1⇥` → `atMost()->once()`
+- `mam2⇥` → `atMost()->twice()`
+- `mamt⇥` → `atMost()->times(✎)`
+- `mar⇥` → `andReturn(✎)`
