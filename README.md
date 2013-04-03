@@ -15,6 +15,8 @@ Snippets
 - `mw`*`TAB`* → `with(✎)`
 - `mw2`*`TAB`* → `with(✎, ✎)`
 - `mw3`*`TAB`* → `with(✎, ✎, ✎)`
+- `mw?`*`TAB`* → `withAnyArgs()`
+- `mw0`*`TAB`* → `withNoArgs()`
 - `mo`*`TAB`* → `once()`
 - `mtw`*`TAB`* → `twice()`
 - `mz+`*`TAB`* → `zeroOrMoreTimes()`
