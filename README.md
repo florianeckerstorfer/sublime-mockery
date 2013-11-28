@@ -1,9 +1,12 @@
-Mockery Support for Sublime Text 2
-==================================
+Mockery Support for Sublime Text
+================================
 
-[Mockery](https://github.com/padraic/mockery) support for Sublime Text 3.
+[Mockery](https://github.com/padraic/mockery) support for Sublime Text 2 and 3.
 
-By [Florian Eckerstorfer](http://braincrafted.com) ([Twitter](http://twitter.com/braincrafted), [App.net](https://alpha.app.net/braincrafted)).
+Author
+------
+
+- [Florian Eckerstorfer](http://florian.ec) ([Twitter](http://twitter.com/Florian_), [App.net](https://alpha.app.net/florian)).
 
 Snippets
 --------
