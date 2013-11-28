@@ -1,7 +1,7 @@
 Mockery Support for Sublime Text 2
 ==================================
 
-[Mockery](https://github.com/padraic/mockery) support for Sublime Text 2.
+[Mockery](https://github.com/padraic/mockery) support for Sublime Text 3.
 
 By [Florian Eckerstorfer](http://braincrafted.com) ([Twitter](http://twitter.com/braincrafted), [App.net](https://alpha.app.net/braincrafted)).
 
@@ -30,3 +30,17 @@ Snippets
 - `mam2⇥` → `atMost()->twice()`
 - `mamt⇥` → `atMost()->times(✎)`
 - `mar⇥` → `andReturn(✎)`
+- `mat⇥` → `andThrow(✎)`
+
+### Combined Snippets
+
+- `msrwo⇥` → `shouldReceive(✎)->with(✎)->once()✎;`
+- `msrwoar⇥` → `shouldReceive(✎)->with(✎)->once()->andReturn(✎);`
+- `msrwoat⇥` → `shouldReceive(✎)->with(✎)->once()->andThrow(✎);`
+- `msrwt⇥` → `shouldReceive(✎)->with(✎)->times(✎)✎;`
+- `msrwtar⇥` → `shouldReceive(✎)->with(✎)->times(✎)->andReturn(✎);`
+- `msrwtat⇥` → `shouldReceive(✎)->with(✎)->times(✎)->andThrow(✎);`
+- `msroar⇥` → `shouldReceive(✎)->once()->andReturn(✎);`
+- `msroat⇥` → `shouldReceive(✎)->>once()->andThrow(✎);`
+- `msrtar⇥` → `shouldReceive(✎)->times(✎)->andReturn(✎);`
+- `msrtat⇥` → `shouldReceive(✎)->times(✎)->andThrow(✎);`

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[shouldReceive(${1:'${2:method name}'})->once()->andThrow(${3:throw});$0]]></content>
+    <tabTrigger>msrwat</tabTrigger>
+    <scope>source.php</scope>
+    <description>->shouldReceive()->with()->andThrow()</description>
+</snippet>
