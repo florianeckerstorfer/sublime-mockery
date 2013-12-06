@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[shouldReceive(${1:'${2:method name}'})->withAnyArgs()->andReturn(${3:return});$0]]></content>
+    <tabTrigger>msrwaaar</tabTrigger>
+    <scope>source.php</scope>
+    <description>->shouldReceive()->withAnyArgs()->andReturn()</description>
+</snippet>

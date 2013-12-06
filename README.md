@@ -37,16 +37,18 @@ Snippets
 
 ### Combined Snippets
 
+- `msrar⇥` → `shouldReceive(✎)->andReturn(✎);`
 - `msroar⇥` → `shouldReceive(✎)->once()->andReturn(✎);`
 - `msroat⇥` → `shouldReceive(✎)->>once()->andThrow(✎);`
 - `msrtar⇥` → `shouldReceive(✎)->times(✎)->andReturn(✎);`
 - `msrtat⇥` → `shouldReceive(✎)->times(✎)->andThrow(✎);`
-- `msrw?o⇥` → `shouldReceive(✎)->withAnyArgs()->once()✎;`
-- `msrw?oar⇥` → `shouldReceive(✎)->withAnyArgs()->once()->andReturn(✎);`
-- `msrw?oat⇥` → `shouldReceive(✎)->withAnyArgs()->once()->andThrow(✎);`
-- `msrw?t⇥` → `shouldReceive(✎)->withAnyArgs()->times(✎)✎;`
-- `msrw?tar⇥` → `shouldReceive(✎)->withAnyArgs()->times(✎)->andReturn(✎);`
-- `msrw?tat⇥` → `shouldReceive(✎)->withAnyArgs()->times(✎)->andThrow(✎);`
+- `msrwaaar⇥` → `shouldReceive(✎)->withAnyArgs()->andReturn(✎);`
+- `msrwaao⇥` → `shouldReceive(✎)->withAnyArgs()->once()✎;`
+- `msrwaaoar⇥` → `shouldReceive(✎)->withAnyArgs()->once()->andReturn(✎);`
+- `msrwaaoat⇥` → `shouldReceive(✎)->withAnyArgs()->once()->andThrow(✎);`
+- `msrwaat⇥` → `shouldReceive(✎)->withAnyArgs()->times(✎)✎;`
+- `msrwaatar⇥` → `shouldReceive(✎)->withAnyArgs()->times(✎)->andReturn(✎);`
+- `msrwaatat⇥` → `shouldReceive(✎)->withAnyArgs()->times(✎)->andThrow(✎);`
 - `msrw0o⇥` → `shouldReceive(✎)->withNoArgs()->once()✎;`
 - `msrw0oar⇥` → `shouldReceive(✎)->withNoArgs()->once()->andReturn(✎);`
 - `msrw0oat⇥` → `shouldReceive(✎)->withNoArgs()->once()->andThrow(✎);`
