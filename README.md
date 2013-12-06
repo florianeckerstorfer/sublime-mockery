@@ -16,10 +16,10 @@ Snippets
 - `mc⇥` → `m::close();`
 - `msr⇥` → `shouldReceive(✎)`
 - `mw⇥` → `with(✎)`
+- `mw0⇥` → `withNoArgs()`
 - `mw2⇥` → `with(✎, ✎)`
 - `mw3⇥` → `with(✎, ✎, ✎)`
-- `mw?⇥` → `withAnyArgs()`
-- `mw0⇥` → `withNoArgs()`
+- `mwaa⇥` → `withAnyArgs()`
 - `mo⇥` → `once()`
 - `mtw⇥` → `twice()`
 - `mz+⇥` → `zeroOrMoreTimes()`
@@ -38,11 +38,13 @@ Snippets
 ### Combined Snippets
 
 - `msrar⇥` → `shouldReceive(✎)->andReturn(✎);`
+- `msrat⇥` → `shouldReceive(✎)->andThrow(✎);`
 - `msroar⇥` → `shouldReceive(✎)->once()->andReturn(✎);`
 - `msroat⇥` → `shouldReceive(✎)->>once()->andThrow(✎);`
 - `msrtar⇥` → `shouldReceive(✎)->times(✎)->andReturn(✎);`
 - `msrtat⇥` → `shouldReceive(✎)->times(✎)->andThrow(✎);`
 - `msrwaaar⇥` → `shouldReceive(✎)->withAnyArgs()->andReturn(✎);`
+- `msrwaaat⇥` → `shouldReceive(✎)->withAnyArgs()->andThrow(✎);`
 - `msrwaao⇥` → `shouldReceive(✎)->withAnyArgs()->once()✎;`
 - `msrwaaoar⇥` → `shouldReceive(✎)->withAnyArgs()->once()->andReturn(✎);`
 - `msrwaaoat⇥` → `shouldReceive(✎)->withAnyArgs()->once()->andThrow(✎);`
