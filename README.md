@@ -27,7 +27,7 @@ Snippets
 - `mwaa⇥` → `withAnyArgs()`
 - `mo⇥` → `once()`
 - `mtw⇥` → `twice()`
-- `mz+⇥` → `zeroOrMoreTimes()`
+- `mzomt⇥` → `zeroOrMoreTimes()`
 - `mt⇥` → `times(✎)`
 - `mal⇥` → `atLeast()`
 - `mal1⇥` → `atLeast()->once()`
